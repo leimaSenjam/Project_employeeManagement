@@ -7,12 +7,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Employee Management Screen</title>
+<%@include file="all_js_css.jsp"%>
 </head>
 <body>
+<div class="container">
+    <%@include file="navbar.jsp" %>
+    </div>
 	<div align="center">
 		<h1>Employee List</h1>
 		
-		<table border="1">
+		<table border="1" cellpadding= "20%" bordercolor="blue">
 
 			<th>Name</th>
 			<th>Email</th>
