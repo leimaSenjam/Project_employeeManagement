@@ -7,8 +7,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>New/Edit Contact</title>
+<%@include file="all_js_css.jsp"%>
 </head>
 <body>
+ <div class="container">
+    <%@include file="navbar.jsp" %>
+    </div>
     <div align="center">
         <h1>New/Edit Employee</h1>
         <form:form action="saveEmployee" method="post" modelAttribute="employee">
